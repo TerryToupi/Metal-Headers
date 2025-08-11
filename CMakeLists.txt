@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.30)
 
 project(Metal-Headers) 
 
-file(GLOB_RECURSE)
 file(GLOB_RECURSE HEADERS CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/include/**.hpp")
 file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/source/**.cpp")
 
